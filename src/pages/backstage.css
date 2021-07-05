@@ -1,0 +1,34 @@
+.historiaBackstage {
+    flex-wrap: wrap;
+    width: 90%;
+    margin: auto;
+    justify-content: space-around;
+}
+
+.historiaParagraph {
+    width: 45%;
+    margin-bottom: 40px
+}
+
+.mainTitle {
+    color: #cc5299;
+    margin-top: 10%;
+    margin-bottom: 3%;
+    font-weight: bolder;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 25px;
+}
+
+.subtitle {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.historiaPic {
+    width: 45%;
+}
+
+.historiaPic img {
+    width: 45%;
+}
