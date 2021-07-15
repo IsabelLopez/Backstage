@@ -1,17 +1,100 @@
 .carousel{
-  height: 80vh;
-  overflow: hidden;
+  height: 95vh;
 }
+
 
 .carousel-inner{
   height: 100%;
+  overflow: visible !important;
 }
 
 .carousel-item{
   height: 100%;
 }
 
-.carousel-img{
+.carousel-img {
+    height: 110%;
+    margin: auto;
+    position: absolute;
+    left: 0;
+    top: -100px;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#jazz-pic{
+    height: 132%;
+    top: -172px;
+}
+
+#tap-pic{
+    height: 145%;
+    top: -251px;
+}
+
+#contem-pic {
+    height: 140%;
+    top: -229px;
+}
+
+.carousel-circle{
   height: 100%;
   margin: auto;
+  position: absolute;
+  left: 0;
+  top: 0px;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.carousel-text{
+  color: #CC5299;
+  font-weight: 400;
+}
+
+#first-slide-text{
+    bottom: 320px;
+    left: 28%;
+}
+
+#second-slide-text{
+    left: 54%;
+    top: 10%;
+}
+
+#third-slide-text {
+    left: 0;
+    bottom: 50%;
+}
+
+#fourth-slide-text {
+    left: 0;
+    bottom: 42%;
+    right: -21%;
+}
+
+#fifth-slide-text {
+    left: 0;
+    bottom: 55%;
+    right: -21%;
+}
+
+.carousel-control-next, .carousel-control-prev {
+    opacity: 1 !important;
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    width: 21px !important;
+    height: 44px !important;
+}
+
+
+.carousel-control-prev-icon {
+    background-image: url("../images/next-left.png") !important;
+}
+
+.carousel-control-next-icon {
+  background-image: url("../images/next-right.png") !important;
 }
