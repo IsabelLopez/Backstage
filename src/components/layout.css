@@ -1,0 +1,17 @@
+.layout{
+  background-color: #F4E6EF;
+  padding: 100px 80px;
+}
+
+@media(max-width: 1136px){
+  .layout {
+      padding: 181px 20px 100px;
+  }
+}
+
+
+@media(max-width: 768px){
+  .layout {
+    padding: 121px 20px 100px;
+  }
+}

@@ -1,7 +1,9 @@
 .carousel{
   height: 95vh;
 }
-
+.carousel-indicators{
+  display: none !important;
+}
 
 .carousel-inner{
   height: 100%;
@@ -23,14 +25,18 @@
     margin-right: auto;
 }
 
+#ballet-mobile{
+  display: none !important;
+}
+
 #jazz-pic{
     height: 132%;
     top: -172px;
 }
 
-#tap-pic{
+#tap-pic {
     height: 145%;
-    top: -251px;
+    top: -213px;
 }
 
 #contem-pic {
@@ -97,4 +103,124 @@
 
 .carousel-control-next-icon {
   background-image: url("../images/next-right.png") !important;
+}
+
+
+@media only screen and (max-width: 1136px){
+.carousel-circle {
+    height: auto;
+  }
+  .carousel-img {
+    height: 100%;
+  }
+
+  #first-slide-text {
+    bottom: 43%;
+    left: 34%;
+  }
+
+  #ballet-desktop{
+    display: none !important;
+  }
+
+  #ballet-mobile{
+    display: block !important;
+  }
+
+  #second-slide-text {
+    left: -33%;
+    top: 14%;
+  }
+  #jazz-pic {
+    height: auto;
+    top: -177px;
+    width: 100%;
+    left: -7%;
+  }
+  #tap-pic {
+    height: auto;
+    top: -213px;
+    width: 100%;
+  }
+  #fourth-slide-text {
+    left: 0;
+    bottom: 46%;
+    right: -31%;
+  }
+  #fifth-slide-text {
+    left: 0;
+    bottom: 55%;
+    right: -21%;
+    width: 100%;
+  }
+  #contem-pic {
+    height: auto;
+    top: -229px;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 768px){
+  .carousel-circle {
+    width: 100%;
+  }
+
+  .carousel-img {
+    height: auto;
+    width: 100%;
+  }
+
+}
+
+@media only screen and (max-width: 428px){
+  .carousel {
+    height: 50vh;
+    margin-top: 50px;
+  }
+
+  #first-slide-text {
+    bottom: 31%;
+    left: 9%;
+  }
+  .carousel-control-next, .carousel-control-prev {
+    width: 5% !important;
+  }
+  #second-slide-text {
+    left: -39%;
+    top: 3%;
+  }
+  #jazz-pic {
+    height: auto;
+    top: -83px;
+    width: 100%;
+    left: -7%;
+  }
+  #third-slide-text {
+    left: 0;
+    bottom: 36%;
+  }
+  #tap-pic {
+    height: auto;
+    top: -91px;
+    width: 100%;
+  }
+  #fifth-slide-text {
+    left: 0;
+    bottom: 53%;
+    right: -21%;
+    width: 100%;
+  }
+  #contem-pic {
+    height: auto;
+    top: -109px;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 360px){
+  .carousel {
+    height: 50vh;
+    margin-top: 0;
+  }
+
 }

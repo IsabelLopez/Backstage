@@ -7,7 +7,6 @@ import "../pages/index.css"
 const IndexPage = () => {
   return (
     <>
-      <Navigation />
       <main>
         <title>Backstage - Home</title>
       </main>

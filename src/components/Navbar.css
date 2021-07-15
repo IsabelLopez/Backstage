@@ -1,67 +1,125 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300;1,400&display=swap');
 
 body {
-  font-family: 'Lato', sans-serif;
-  background-color:#f4e6ef;
-  font-size: 18px;
+  font-family: 'Raleway', sans-serif;
 }
 
-.nav {
-    justify-content: space-between;
-}
-
-.navbarRight{
-    position: relative;
-    width: 80%;
-    text-align: left;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    text-align: center;
-}
-
-.navbarLeft{
-    position: relative;
-    width: 20%;
-    text-align: center;
-}
-
-/* .navTitle{
-    font-size: 30px;
-    color: black;
-    font-weight: bolder;
+a:hover{
+    color: #7e9ab2 !important;
     text-decoration: none;
-    align-items: center;
-    height: 30vh;
-    justify-content: center;
-} */
-
-.navbarItems {
-    height: 15vh;
 }
 
-.navlink {
-    color: black;
-    font-weight: bolder;  
-    align-items: center;
+#submenu-a:hover{
+  color: #0F2338 !important;
 }
 
-.navlink:hover {
-    color: #cc5299;
-    font-weight: bolder;
+#submenu-a{
+  background: #7E9AB2
 }
 
+.Nav {
+  position: absolute;
+  top: 0;
+  right:0;
+  left: 0;
+  z-index: 1030;
+  height: 15vh;
+  display:flex;
+  justify-content:center;
+  align-items: center;
+  width: 80vw;
+  margin: auto;
+}
+
+.Nav--Container {
+  display: flex;
+  align-items: center;
+  height: auto;
+  padding-top: 20px;
+  padding-bottom:20px;
+  height:100%;
+  width: 100%;
+}
+
+.nav-logo {
+    height: 13vh;
+    margin-top: 15px;
+}
+
+.navitems{
+  margin-right: auto;
+  flex-direction: row;
+  display:flex;
+  height:100%;
+  align-items: center;
+}
+
+.Nav--Links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  flex-grow:1;
+  height:100%;
+  margin-left: 50px;
+}
+
+.Nav--Links > * + * {
+  margin-left: 1rem;
+}
+
+.Nav .Logo {
+  margin-right: 3rem;
+  position: relative;
+}
+
+.Nav--Button {
+  display: none;
+  border:none;
+  color:white;
+}
+
+.NavLink {
+    padding: 0.5rem 1rem;
+    display: block;
+    font-weight: 400;
+    color: #212529;
+    text-decoration: none;
+    font-size: 20px;
+    outline: none !important;
+}
+
+
+.NavLink:hover,
+.NavLink.active,
+.NavLink:focus {
+  color: #7E9AB2;
+  text-decoration:none;
+}
+
+.NavLink.active:hover #submenu{
+  display: block
+}
+
+.Nav--Group {
+  position: relative;
+  cursor: pointer;
+}
+
+
+
+/*toggle menu*/
+
+.Nav--MenuButton{
+  background: none;
+  border:none;
+}
 
 /*SOCIAL MEDIA ICONS!!*/
 
 .nav-icon {
-  width: 33%;
-  color:#cc5299;
-}
-
-.nav-icon:hover {
-  width: 33%;
-  color:#cc5299;
+    width: 25%;
+    color: #CC5299;
 }
 
 .social-media {
@@ -70,5 +128,209 @@ body {
     justify-content: space-between;
     width:10%;
     align-items: center;
+    padding-left: 14px;
+    padding-bottom: 4px;
     margin:0;
 }
+
+.Nav--MenuButton{
+  display:none;
+}
+
+#contact-nav{
+  display: none;
+}
+
+/*CONTAINER WIDTH*/
+
+.container, .container-lg, .container-md, .container-sm, .container-xl {
+    max-width: 75vw ;
+}
+
+@media (max-width: 1433px) {
+  .container, .container-lg, .container-md, .container-sm, .container-xl {
+    max-width: 85vw ;
+  }
+}
+
+@media (max-width: 1265px) {
+  .container, .container-lg, .container-md, .container-sm, .container-xl {
+    max-width: 95vw ;
+  }
+}
+
+
+/*MEDIA QUERIE*/
+
+@media (max-width: 1137px) {
+
+  #contact-nav{
+    display: block;
+  }
+
+  #contactlink{
+    display: none;
+  }
+  @media(pointer: coarse)  {
+  .navlink:hover #submenu{
+    display: block;
+    color:#0F2338;
+  }
+}
+
+  .container, .container-lg, .container-md, .container-sm, .container-xl {
+    max-width: 90vw  !important;
+  }
+  .Nav--Container {
+    display: flex;
+  }
+
+  .Nav--MenuButton {
+    display: block !important;
+    margin-left: auto;
+    z-index: 1;
+    color: #cc5299
+  }
+
+  .Nav .Logo {
+    z-index: 1;
+  }
+
+ .Nav--Links {
+    display: none;
+    align-items: center;
+    flex-direction: column;
+    position: fixed;
+    justify-content: center;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    -webkit-animation: Nav--Links 0.2s ease;
+    animation: Nav--Links 0.2s ease;
+    opacity: 1;
+    height: 100%;
+    margin: 0;
+    background: #F4E6EF;
+}
+
+  .navitems {
+    margin-left: 0;
+    flex-direction: column;
+    display: flex;
+    height: 38%;
+    align-items: center;
+    width: 100%;
+    justify-content: space-around;
+    margin-bottom: 50px;
+   }
+
+  .Nav--Links > * + * {
+    margin-left: 0;
+    margin-top: 1rem;
+  }
+
+  .Nav-active .Nav--Links {
+    display: flex;
+  }
+
+  .Nav-active .NavLink {
+    animation: Nav--Link 0.3s ease-out;
+    animation-fill-mode: both;
+  }
+
+  .Nav .NavLink {
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+    z-index: 1;
+  }
+
+  .Nav .NavLink:nth-of-type(2) {
+    animation-delay: 0.1s;
+  }
+  .Nav .NavLink:nth-of-type(3) {
+    animation-delay: 0.2s;
+  }
+  .Nav .NavLink:nth-of-type(4) {
+    animation-delay: 0.3s;
+  }
+  .Nav .NavLink:nth-of-type(5) {
+    animation-delay: 0.4s;
+  }
+  .Nav .NavLink:nth-of-type(6) {
+    animation-delay: 0.5s;
+  }
+  .Nav .NavLink:nth-of-type(7) {
+    animation-delay: 0.6s;
+  }
+  .Nav .NavLink:nth-of-type(8) {
+    animation-delay: 0.7s;
+  }
+  .Nav .NavLink:nth-of-type(7) {
+    animation-delay: 0.6s;
+  }
+
+  .Nav--GroupLinks {
+    position: relative;
+    text-align: center;
+  }
+
+  .Nav--GroupLinks .NavLink {
+    font-size: 1.5rem;
+    width: auto;
+  }
+
+  #submenu{
+  display: none;
+  position: relative;
+  list-style-type: none;
+  margin: 0;
+   }
+
+  .social-media{
+    width:24%;
+    padding-left: 0;
+    padding-bottom: 0;
+    margin:0;
+  }
+  .logonav {
+    width: 46%;
+    margin: 0px;
+    height: 100%;
+    display: flex;
+  }
+}
+
+@media (max-width: 100px){
+  .logonav {
+    width: 34%;
+    margin: 10px;
+    height: 100%;
+    display: flex;
+  }
+}
+
+@media (min-width: 730px) and (max-width:1134px){
+  .logonav img{
+    width:70%;
+  }
+}
+
+@media only screen and (max-width: 428px){
+
+
+  .nav-logo {
+    height: 11vh;
+    margin-top: 15px;
+  }
+
+  .Nav .NavLink {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    z-index: 1;
+  }
+
+}
+

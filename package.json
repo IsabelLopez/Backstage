@@ -21,11 +21,14 @@
     "gatsby": "^2.32.13",
     "gatsby-link": "^3.9.0",
     "gatsby-react-router-scroll": "^4.9.0",
+    "prop-types": "^15.7.2",
     "react": "^17.0.1",
     "react-bootstrap": "^1.6.1",
     "react-dom": "^17.0.1",
+    "react-feather": "^2.0.9",
     "react-slick": "^0.28.1",
-    "slick-carousel": "^1.8.1"
+    "slick-carousel": "^1.8.1",
+    "smoothscroll-polyfill": "^0.4.4"
   },
   "devDependencies": {
     "prettier": "2.2.1"
