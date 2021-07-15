@@ -1,25 +1,17 @@
-.homeParagraph {
-    margin-top: 8%;
+.carousel{
+  height: 80vh;
+  overflow: hidden;
 }
 
-#btn{
-  border: none;
-  background:#cc5299;
-  margin-top: 10px;
-  padding: 8px 30px;
-  border-radius: 25px;
-  letter-spacing: 1px;
-  font-weight: bolder;
-  margin-bottom: none;
+.carousel-inner{
+  height: 100%;
 }
 
-.carouselImg {
-    height: 80vh;
-    width: auto;
-    object-fit: contain;
+.carousel-item{
+  height: 100%;
 }
 
-.carouselBgImage{
-    position:absolute;
-    margin: auto;
+.carousel-img{
+  height: 100%;
+  margin: auto;
 }
