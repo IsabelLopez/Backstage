@@ -1,12 +1,13 @@
-.historiaBackstage {
+.historia {
+    display: flex;
     flex-wrap: wrap;
-    width: 90%;
+    width: 100%;
     margin: auto;
     justify-content: space-around;
 }
 
 .historiaParagraph {
-    width: 45%;
+    width: 50%;
     margin-bottom: 40px
 }
 
@@ -20,15 +21,78 @@
     font-size: 25px;
 }
 
+.subtitle2 {
+    font-size: 14px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
 .subtitle {
     font-size: 14px;
     font-weight: bold;
+    letter-spacing: 0.5px;
 }
 
 .historiaPic {
-    width: 45%;
+    width: 40%;
+    padding-top: 8%;
 }
 
 .historiaPic img {
+    width: 100%;
+    height: auto;
+    background-color: #cc5299;
+    border-radius: 25px;
+}
+
+
+.quote {
+    width: 74%;
+    margin: auto;
+    display: inline-block;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.mainQuote {
+    color: #cc5299;
+    font-size: 22px;
+    font-weight: bolder;
+    line-height: 30px;
+    letter-spacing: 0.5px;
+}
+
+.nameQuote {
+    color: #cc5299;
+    font-size: 16px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    padding-top: 3%;
+    letter-spacing: 1px;
+}
+
+.infoTita {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: auto;
+    justify-content: space-between;
+    padding-top: 5%;
+    margin-bottom: 40%;
+    letter-spacing: 1px;
+    font-size: 12px;
+}
+
+.infoLeft {
     width: 45%;
+}
+
+.infoRight {
+    width: 45%;
+}
+
+.subtitleTita {
+    font-size: 12px;
+    font-weight: bold;
 }
