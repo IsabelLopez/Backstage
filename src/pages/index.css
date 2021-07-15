@@ -9,19 +9,42 @@ body{
 h1{
   font-weight: bold;
   font-size: 75px;
+  color: #CC5299;
 }
 
 h2{
   font-weight: bold;
   font-size: 56px;
+  color: #CC5299;
 }
 
 h3{
   font-size: 42px;
+  color: #CC5299;
+}
+
+h3{
+  font-size: 42px;
+  color: #CC5299;
+}
+
+h4{
+  font-size: 32px;
+  color: #CC5299;
 }
 
 p{
   font-size: 18px;
+  letter-spacing: 0.5px;
+}
+.contenido{
+  margin-top: 100px;
+}
+
+
+.subtitle{
+  font-weight: 700;
+  letter-spacing: 0.5px;
 }
 
 .container-box{
@@ -29,10 +52,131 @@ p{
   margin: auto;
 }
 
+.mainTitle {
+    color: #cc5299;
+    font-weight: bolder;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.text {
+    letter-spacing: 0.5px;
+}
+
+.flex-box-half{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.one-half-flex{
+  width: 50%;
+  padding: 40px;
+}
+
+#no-padding{
+  padding: 0;
+}
+
+.padding-text-left{
+  padding-left: 30px;
+  padding-top: 30px;
+}
+
+.padding-text-right{
+  padding-right: 30px;
+  padding-top: 30px;
+}
+.two-thirds-box{
+  width: 65%;
+}
+
+.one-third-flex{
+  width: 40%;
+  padding: 40px;
+}
+
+.two-third-flex{
+  width: 60%;
+  padding: 40px;
+}
+
+@media only screen and (max-width: 1136px){
+  .one-half-flex {
+    width: 100%;
+    padding: 40px;
+  }
+  .two-thirds-box {
+    width: 90%;
+    margin: auto;
+  }
+  .one-third-flex {
+    width: 100%;
+    padding: 40px;
+  }
+
+  .two-third-flex {
+    width: 100%;
+    padding: 40px;
+  }
+  .padding-text-left{
+    padding-left: 0;
+  }
+  .padding-text-right{
+    padding-right: 0px;
+    padding-top: 30px;
+  }
+
+  .column-reverse{
+    flex-direction: column-reverse;
+  }
+}
 
 @media only screen and (max-width: 428px){
   h1{
     font-size: 45px;
   }
 
+  h3 {
+    font-size: 25px;
+  }
+  h4 {
+    font-size: 20px;
+  }
+
+  h5{
+    font-size: 15px;
+  }
+
+  p {
+    font-size: 13px;
+  }
+
+
+  .contenido{
+    margin-top: 20px;
+  }
+
+  .one-half-flex {
+    padding: 10px;
+  }
+
+  .two-third-flex {
+    width: 100%;
+    padding: 10px;
+  }
+  .padding-text-right {
+    padding-right: 0px;
+     padding-top: 0px;
+  }
+
+  .padding-text-left {
+    padding-left: 0px;
+    padding-top: 0px;
+  }
+
+  .imgHistoria-teacher {
+    width: 100%;
+    z-index: 1;
+    position: relative;
+  }
 }

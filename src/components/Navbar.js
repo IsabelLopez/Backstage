@@ -114,7 +114,7 @@ export class Navigation extends Component {
                 <div  className='Nav--Links' >
 
                   <div className="navitems">
-                    <NavLink to='#' className="navlink">
+                    <NavLink to='/backstage' className="navlink">
                         SOMOS BACKSTAGE
                     </NavLink>
 
