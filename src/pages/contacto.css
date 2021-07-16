@@ -85,3 +85,57 @@
 .whatsappnumber {
   margin-bottom: 5%;
 }
+
+
+.form-control {
+    display: block;
+    width: 100%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: 35px 30px !important;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 2.25rem !important;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.cicle-contact{
+  position: absolute;
+  left: 0;
+}
+
+.contac-maps{
+  height: 50vh;
+}
+
+@media(max-width: 768px){
+  .cicle-contact {
+    position: absolute;
+    left: 0;
+    width: 70%;
+  }
+
+}
+
+@media only screen and (max-width: 428px){
+  .contact_form {
+    width: 100%;
+    margin: auto;
+  }
+
+.form-control {
+    padding: 26px 11px !important;
+    font-size: 12px !important;
+  }
+
+  .cicle-contact {
+    position: absolute;
+    left: 0;
+    width: 70%;
+    bottom: 0;
+  }
+}

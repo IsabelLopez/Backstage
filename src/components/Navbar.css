@@ -5,12 +5,12 @@ body {
 }
 
 a:hover{
-    color: #7e9ab2 !important;
+    color: #CC5299 !important;
     text-decoration: none;
 }
 
 #submenu-a:hover{
-  color: #0F2338 !important;
+  color: #CC5299 !important;
 }
 
 #submenu-a{
@@ -93,7 +93,7 @@ a:hover{
 .NavLink:hover,
 .NavLink.active,
 .NavLink:focus {
-  color: #7E9AB2;
+  color: #CC5299;
   text-decoration:none;
 }
 

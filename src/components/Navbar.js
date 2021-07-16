@@ -8,7 +8,7 @@ import { Menu, X } from 'react-feather'
 import { Location } from '@reach/router'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faFacebookSquare, faInstagram, faYoutubeSquare } from '@fortawesome/free-brands-svg-icons'
+import { faFacebookSquare, faInstagram, faWhatsappSquare } from '@fortawesome/free-brands-svg-icons'
 import { config } from '@fortawesome/fontawesome-svg-core'
 // Disable the auto CSS insertion
 config.autoAddCss = false
@@ -134,14 +134,14 @@ export class Navigation extends Component {
                   </div>
 
                   <div className="social-media">
-                    <a className="nav-icon" alt="Instagram icon" href="https://www.instagram.com/ec.horses/" target="_blank" rel="noopener noreferrer">
+                    <a className="nav-icon" alt="Instagram icon" href="#" target="_blank" rel="noopener noreferrer">
                       <FontAwesomeIcon icon={faInstagram} className="fa-fw" />
                     </a>
-                    <a className="nav-icon" alt="Facebook icon" href="https://www.facebook.com/ec.horses17" target="_blank" rel="noopener noreferrer">
+                    <a className="nav-icon" alt="Facebook icon" href="#" target="_blank" rel="noopener noreferrer">
                       <FontAwesomeIcon icon={faFacebookSquare} className="fa-fw" />
                     </a>
-                    <a className="nav-icon" alt="Youtube icon" href="https://www.youtube.com/channel/UCSaoMvPuMr3gzUjh32qWGbg" target="_blank" rel="noopener noreferrer">
-                      <FontAwesomeIcon icon={faYoutubeSquare} className="fa-fw" />
+                    <a className="nav-icon" alt="Youtube icon" href="#" target="_blank" rel="noopener noreferrer">
+                      <FontAwesomeIcon icon={faWhatsappSquare} className="fa-fw" />
                     </a>
                   </div>
 
