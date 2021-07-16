@@ -118,7 +118,7 @@ export class Navigation extends Component {
                         SOMOS BACKSTAGE
                     </NavLink>
 
-                    <NavLink to='#' className="navLink">
+                    <NavLink to='/clases' className="navLink">
                       CLASES
                     </NavLink>
 
@@ -126,7 +126,7 @@ export class Navigation extends Component {
                       FOTOS
                     </NavLink>
 
-                    <NavLink to='#' className="navlink">
+                    <NavLink to='/contacto' className="navlink">
                       CONTÁCTANOS
                     </NavLink>
 

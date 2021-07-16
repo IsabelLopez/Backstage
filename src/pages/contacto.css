@@ -11,6 +11,14 @@
     padding-top: 4%;
 }
 
+.center-text{
+  text-align: center;
+}
+
+.contact_form{
+  width: 50%;
+  margin: auto;
+}
 .paragraph p {
     color: black;
     font-weight: 450;

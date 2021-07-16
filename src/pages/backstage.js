@@ -31,7 +31,6 @@ const BackstagePage = () => {
                       <img src={img5} alt="" class="img-historia" />
                   </div>
                 </div>
-              </div>
 
               <div className="two-thirds-box" id="quote">
                 <h1>““</h1>
@@ -62,6 +61,7 @@ const BackstagePage = () => {
                       </div>
                     </div>
                   </div>
+              </div>
               </div>
 
             </Layout>

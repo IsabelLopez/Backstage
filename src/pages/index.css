@@ -41,6 +41,19 @@ p{
   margin-top: 100px;
 }
 
+#btn{
+  border: none;
+  background:#cc5299;
+  border-radius: 25px;
+  font-size: 18px;
+  letter-spacing: 2px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  position: relative;
+  top: -30px;
+  padding: 11px 30px;
+}
 
 .subtitle{
   font-weight: 700;
@@ -63,6 +76,10 @@ p{
     letter-spacing: 0.5px;
 }
 
+.text-box-center{
+  text-align: center;
+}
+
 .flex-box-half{
   display: flex;
   flex-wrap: wrap;
@@ -80,6 +97,10 @@ p{
 .padding-text-left{
   padding-left: 30px;
   padding-top: 30px;
+}
+
+.margin-70{
+  margin-top: 70px;
 }
 
 .padding-text-right{
@@ -151,7 +172,19 @@ p{
     font-size: 13px;
   }
 
-
+  #btn {
+    border: none;
+    background: #cc5299;
+    border-radius: 25px;
+    font-size: 12px;
+    letter-spacing: 2px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+    top: -30px;
+    padding: 11px 30px;
+  }
   .contenido{
     margin-top: 20px;
   }

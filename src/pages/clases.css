@@ -1,121 +1,163 @@
-.titulo {
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
+#class-flex {
+    height: 50vh;
+    width: 75%;
     margin: auto;
-    justify-content: space-around;
+}
+
+#img-half{
+  padding: 0;
+  height: 100%;
+}
+
+.img-class {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.class-text-box{
+  width: 50%;
+  margin: auto;
+  margin-top: 130px;
+  margin-bottom: 70px;
+}
+
+.circle-img-class{
+    position: absolute;
+    top: -15%;
+    width: 70%;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+
+.pink-background{
+ background-color: rgba(204, 82, 153, .4);
+ padding: 30px;
+}
+
+#outside-text{
+  padding-right: 80px;
+}
+
+.img-class-rounded{
+    width: 61%;
+    border-radius: 5%;
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    top: 0;
+    bottom: 0;
+    margin-top: auto;
+    margin-bottom: auto;
+    height: 80%;
+    object-fit: cover;
+}
+
+#background-rounded-class{
+    background-color: rgba(204, 82, 153, .4);
+    position: absolute;
+    width: 67%;
+    height: 90%;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5%;
+    top: 0;
+    bottom: 0;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+@media only screen and (max-width: 1136px){
+  #img-half{
+    width: 50%;
+  }
+
+  #class-flex {
+    height: 25vh;
+  }
+  .class-text-box {
+        width: 75%;
+  }
+  .circle-img-class {
+    position: relative;
+    top: -24%;
+    width: 70%;
+    margin: auto;
+  }
+  .flex-responsive{
+    display: flex;
+  }
+
+  #outside-text {
+    padding-right: 80px;
+    margin-top: -18%;
     text-align: center;
+  }
+  #second-layout{
+    padding-top: 0;
+  }
+  .secondary{
+    padding: 0px 20px;
+  }
+  .img-class-rounded {
+    position: relative;
+  }
 }
 
-.mainTitleClases {
-    width: 55%;
-    color: #cc5299;
-    margin-top: 2%;
-    margin-bottom: 2%;
-    font-weight: bolder;
-    text-transform: uppercase;
-    letter-spacing: 3px;
-    line-height: 40px;
-    font-size: 25px;
-}
 
-.subtitleClases {
-    width: 55%;
-    font-size: 14px;
-    font-weight: bold;
-    letter-spacing: 0.5px;
-    line-height: 20px;
-}
+@media only screen and (max-width: 428px){
 
-.section {
-    display: flex;
-    flex-wrap: wrap;
+  #img-half {
     width: 100%;
-    height: 55vh;
+  }
+
+  #class-flex {
+    height: auto;
+  }
+  .img-class {
+    height: 22vh;
+    width: 100%;
+    object-fit: cover;
+  }
+  .class-text-box {
+    width: 90%;
     margin: auto;
-    justify-content: space-around;
+    margin-top: 30px;
+    margin-bottom: 0px;
+  }
+  .circle-img-class {
+    position: relative;
+    top: -42%;
+    width: 80%;
+    margin: auto;
+  }
+  #outside-text {
+    padding-right: 0;
+    margin-top: -25%;
+    text-align: center;
+    padding-left: 0;
+  }
+
+  .center{
+    text-align: center;
+  }
+
+  #background-rounded-class {
+    background-color: rgba(204, 82, 153, .4);
+    position: absolute;
+    width: 85%;
+  }
+
+  .img-class-rounded {
+    width: 75%;
+  }
 }
 
-.sectionParagraph {
-    width: 50%;
-    margin-bottom: 40px;
-    margin-top: 10%;
-}
 
-.subtitleSection {
-    font-size: 14px;
-    font-weight: 500;
-    letter-spacing: 0.5px;
-}
 
-.sectionPic {
-    width: 40%;
-    padding-top: 10%;
-}
-
-.sectionPic img {
-    width: 100%;
-    height: 50%;
-    object-fit: cover;
-    background-color: #cc5299;
-    border-radius: 25px;
-}
-
-#pinkSection {
-    background-color: #E6BCD7;
-    height: 50vh;
-    min-width: 100vh !important;
-    margin-top: 8%;
-}
-
-.sectionPicPink {
-    width: 40%;
-}
-
-.sectionPicPink img {
-    width: 100%;
-    height: 50vh;
-    object-fit: cover;
-    background-color: #cc5299;
-    border-radius: 50%;
-}
-
-.sectionParagraphPink {
-    width: 50%;
-    margin: 5% 0;
-}
-
-.subtitleSectionPink {
-    font-size: 14px;
-    font-weight: 500;
-    letter-spacing: 0.5px;
-    align-items: center;
-}
-
-#firstSection {
-    height: 65vh;
-}
-
-.sectionPicHeader {
-    width: 50%;
-    padding-top: 10%;
-}
-
-.sectionPicHeader img {
-    width: 100%;
-    height: 50%;
-    object-fit: cover;
-}
-
-#btn{
-  border: none;
-  background:#cc5299;
-  border-radius: 25px;
-  font-size: 18px;
-  letter-spacing: 2px;
-  display: block;
-  margin-right: auto;
-  margin-left: auto;
-  position: relative;
-  top: -30px;
-}
