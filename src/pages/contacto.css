@@ -1,32 +1,21 @@
-.titleText {
-    color: #cc5299;
-    font-weight: 600;
-    padding-top: 3%;
-    padding-bottom: 1%;
-    text-transform: uppercase;
-}
+#contact-page{
+  margin-top: 200px;
+  position: relative;
+  padding-bottom: 200px;
 
-.paragraph{
-    text-align: center;
-    padding-top: 4%;
-}
-
-.center-text{
-  text-align: center;
 }
 
 .contact_form{
   width: 50%;
   margin: auto;
+  margin-top: 50px;
 }
-.paragraph p {
-    color: black;
-    font-weight: 450;
-    line-height: 20px;
-    width: 30%;
-    margin: auto;
-    font-size: 18px;
-    padding-bottom: 2%;
+
+.contact-circle{
+    position: absolute;
+    bottom: 0;
+    width: 35%;
+    z-index: -1;
 }
 
 .contactrow{
@@ -44,10 +33,6 @@
   padding-left: 4%;
   font-size: 14px;
   text-transform: uppercase;
-}
-
-.longerInput {
-    height: 180px;
 }
 
 .placeholder-message{
@@ -68,30 +53,11 @@
   float: right;
 }
 
-.underline{
-    text-decoration: underline;
-    text-decoration-thickness: 15%;
-    text-decoration-color:#ff8c68;
-    text-underline-offset: 50%;
-}
-
-.paragraph2 p {
-    color: #79917c;
-    font-weight: 450;
-    font-size: 18px;
-    text-align: center;
-}
-
-.whatsappnumber {
-  margin-bottom: 5%;
-}
-
-
 .form-control {
     display: block;
     width: 100%;
     height: calc(1.5em + .75rem + 2px);
-    padding: 35px 30px !important;
+    padding: 25px 30px !important;
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.5;
@@ -103,13 +69,32 @@
     transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
 
-.cicle-contact{
-  position: absolute;
-  left: 0;
+.contact-icon {
+    color: #CC5299;
+    font-size: 35px !important;
+    margin-right: 21px;
 }
 
-.contac-maps{
-  height: 50vh;
+.contact-info{
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.map-container{
+  display: flex;
+  margin: auto;
+  justify-content: space-around;
+  width: 75%;
+  margin-top: 120px;
+}
+
+.map-img{
+  width: 45%;
+  object-fit: cover;
+}
+
+.contact-media{
+  width: 45%;
 }
 
 @media(max-width: 768px){
@@ -121,21 +106,97 @@
 
 }
 
-@media only screen and (max-width: 428px){
+@media only screen and (max-width: 1136px){
+
   .contact_form {
+    width: 70%;
+    margin: auto;
+    margin-top: 90px;
+  }
+  .map-container {
+    width: 85%;
+  }
+
+  .contact-circle {
+    width: 49%;
+  }
+  .contact-text{
+    margin-top: 30px !important;
+  }
+  #contact-page {
+    padding-bottom: 100px;
+    min-height: 87vh;
+  }
+}
+
+@media only screen and (max-width: 800px){
+  #contact-page {
+    margin-top: 230px;
+  }
+  .contact-text {
+    margin-top: 35px !important;
+    width: 75%;
+    margin: auto;
+  }
+  .contact_form {
+    width: 80%;
+    margin-top: 55px;
+  }
+  .map-container {
+    margin-top: 100px;
+  }
+  .map-container {
+    flex-direction: column-reverse;
+    width: 70%;
+  }
+  .map-img {
     width: 100%;
+  }
+  .contact-media {
+    width: 100%;
+  }
+  #contact-page {
+    padding-bottom: 115px;
+  }
+}
+
+@media only screen and (max-width: 550px){
+  #contact-page {
+    margin-top: 160px;
+  }
+
+  .contact-text {
+    margin-top: 25px !important;
+    margin-bottom:  25px;
+  }
+
+  .contact_form {
+    width: 90%;
     margin: auto;
   }
 
-.form-control {
-    padding: 26px 11px !important;
-    font-size: 12px !important;
+  .form-control {
+    padding: 23px 20px !important;
+    font-size: 10px !important;
   }
 
-  .cicle-contact {
-    position: absolute;
-    left: 0;
-    width: 70%;
-    bottom: 0;
+  .contact-icon {
+    font-size: 20px !important;
+    margin-right: 15px;
+  }
+  .contact-info {
+    margin-bottom: 15px;
+  }
+
+  .contact-circle {
+    width: 69%;
+  }
+
+  #contact-page {
+    padding-bottom: 70px;
+  }
+
+  .map-container {
+    margin-top: 60px;
   }
 }

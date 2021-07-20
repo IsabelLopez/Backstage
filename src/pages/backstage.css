@@ -96,6 +96,7 @@
   #background-rounded {
     width: 90%;
     height: 100%;
+
   }
   .img-historia {
     width: 85%;
@@ -107,5 +108,16 @@
   }
   #historia-second {
     margin-top: 50px;
+  }
+  .img-side{
+    height: 30vh;
+  }
+  .height-auto{
+    height: auto ;
+  }
+
+  .imgHistoria-teacher {
+    margin: 0;
+    height: 100%;
   }
 }

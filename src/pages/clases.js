@@ -16,7 +16,6 @@ import "../pages/clases.css"
 const ClasesPage = () => {
     return (
         <>
-            <Navigation />
             <title>Backstage - Clases</title>
             <Layout>
               <div className="contenido">
@@ -40,7 +39,7 @@ const ClasesPage = () => {
             </Layout>
 
             <div className="flex-box-half pink-background" id="">
-              <div className="one-half-flex flex-responsive" id="relative-side">
+              <div className="one-half-flex flex-responsive img-absolute" id="relative-side">
                   <img src={img13} alt="" class="circle-img-class" />
               </div>
               <div className="one-half-flex" id="outside-text">
@@ -50,7 +49,7 @@ const ClasesPage = () => {
           </div>
 
           <div className="contenido secondary">
-            <div className="flex-box-half margin-70">
+            <div className="flex-box-half margin-40">
               <div className="one-half-flex">
                 <p className="text center">Otros géneros como <b>Tap, Jazz y Contemporáneo
                         </b> también siguen un plan de estudio. La colocación del estudiante en una clase se determina por su edad o por la potestad del profesor, mediante la evaluación de su progreso. Cada clase tendrá un conjunto de pasos necesarios que se deberán dominar antes de pasar al siguiente nivel. </p>
@@ -63,6 +62,8 @@ const ClasesPage = () => {
                   <img src={girls} alt="" class="img-class-rounded" />
               </div>
             </div>
+
+
           </div>
 
 

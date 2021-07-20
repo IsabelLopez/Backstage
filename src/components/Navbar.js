@@ -8,7 +8,7 @@ import { Menu, X } from 'react-feather'
 import { Location } from '@reach/router'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faFacebookSquare, faInstagram, faWhatsappSquare } from '@fortawesome/free-brands-svg-icons'
+import { faFacebookSquare, faInstagram, faWhatsapp } from '@fortawesome/free-brands-svg-icons'
 import { config } from '@fortawesome/fontawesome-svg-core'
 // Disable the auto CSS insertion
 config.autoAddCss = false
@@ -141,7 +141,7 @@ export class Navigation extends Component {
                       <FontAwesomeIcon icon={faFacebookSquare} className="fa-fw" />
                     </a>
                     <a className="nav-icon" alt="Youtube icon" href="#" target="_blank" rel="noopener noreferrer">
-                      <FontAwesomeIcon icon={faWhatsappSquare} className="fa-fw" />
+                      <FontAwesomeIcon icon={faWhatsapp} className="fa-fw" />
                     </a>
                   </div>
 

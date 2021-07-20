@@ -39,7 +39,7 @@ const BackstagePage = () => {
               </div>
 
               <div className="flex-box-half column-reverse" id="historia-second">
-                  <div className="one-third-flex img-side" id="relative-side" >
+                  <div className="one-third-flex img-side height-auto" id="relative-side" >
                     <img src={Main} alt="" class="imgHistoria-teacher" />
                     <img src={Circle} alt="" class="imgHistoria-circle" />
 

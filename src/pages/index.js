@@ -3,6 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import Navigation from "../components/Navbar"
 import Homepage from "../pages/home"
 import "../pages/index.css"
+import '@fortawesome/fontawesome-svg-core/styles.css'
 
 const IndexPage = () => {
   return (

@@ -14,12 +14,7 @@ h1{
 
 h2{
   font-weight: bold;
-  font-size: 56px;
-  color: #CC5299;
-}
-
-h3{
-  font-size: 42px;
+  font-size: 50px;
   color: #CC5299;
 }
 
@@ -39,6 +34,11 @@ p{
 }
 .contenido{
   margin-top: 100px;
+}
+
+
+.center-text{
+  text-align: center;
 }
 
 #btn{
@@ -99,8 +99,8 @@ p{
   padding-top: 30px;
 }
 
-.margin-70{
-  margin-top: 70px;
+.margin-40{
+  margin-top: 40px;
 }
 
 .padding-text-right{
