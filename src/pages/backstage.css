@@ -17,7 +17,7 @@
     background-color: rgba(204, 82, 153, .4);
     position: absolute;
     width: 75%;
-    height: 90%;
+    height: 100%;
     left: 0;
     right: 0;
     margin-left: auto;
@@ -58,66 +58,110 @@
   margin: auto;
 }
 
-#historia-second{
-  margin-top: 80px;
+#historia-second {
+    margin-top: 110px;
+}
+
+#quote{
+  margin-top: 60px;
+}
+
+@media only screen and (max-width: 1366px){
+  #background-rounded {
+    width: 90%;
+    height: 90%;
+  }
+
+  .img-historia {
+    width: 85%;
+    height: 85%;
+    object-fit: cover;
+  }
+
+  #first-paragraph{
+    padding-top: 30px;
+  }
+
+  #quote{
+    margin-top: 50px;
+  }
+
+  #historia-second {
+    margin-top: 50px;
+  }
 }
 
 @media only screen and (max-width: 1136px){
   .img-historia {
-    position: relative;
+    width: 90%;
+    height: 50%;
   }
 
-  .img-side{
-    display: flex;
+  #quote {
+    margin-top: 25px;
+    margin-left: 40px;
+  }
+
+  .circle-img-teacher{
+    height: 50vh;
+    padding-top: 0 !important;
   }
 
   .imgHistoria-teacher {
-    width: 73%;
-    z-index: 1;
-    position: relative;
+    height: 100%;
+    object-fit: contain;
   }
+
   .imgHistoria-circle {
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 84%;
-    bottom: 0;
-    right: 0;
+    height: 83%;
+    object-fit: contain;
+  }
+
+  #no-padding{
+    padding-bottom: 0px
+  }
+
+}
+
+@media only screen and (max-width: 768px){
+  .one-half-text {
+    width: 100%;
+  }
+
+  .one-half-img {
+    height: 35vh;
     margin: auto;
   }
 
-  #quote{
+  .img-historia {
     width: 85%;
-    margin-top: 80px;
+    height: 90%;
+  }
+
+  #quote {
+    margin-top: 55px;
+    margin-left: 40px;
+  }
+
+  #first-paragraph {
+    padding-top: 0;
   }
 }
 
 @media only screen and (max-width: 428px){
-  #background-rounded {
-    width: 90%;
-    height: 100%;
-
-  }
-  .img-historia {
-    width: 85%;
-  }
 
   #quote {
-    width: 85%;
-    margin-top: 50px;
-  }
-  #historia-second {
-    margin-top: 50px;
-  }
-  .img-side{
-    height: 30vh;
-  }
-  .height-auto{
-    height: auto ;
+    margin-top: 55px;
+    margin-left: 10px;
   }
 
-  .imgHistoria-teacher {
-    margin: 0;
-    height: 100%;
+  .one-half-img {
+    height: 25vh;
+    margin: auto;
   }
+
+  .nameQuote {
+    margin-top: 20px;
+  }
+
 }

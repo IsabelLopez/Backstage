@@ -97,14 +97,6 @@
   width: 45%;
 }
 
-@media(max-width: 768px){
-  .cicle-contact {
-    position: absolute;
-    left: 0;
-    width: 70%;
-  }
-
-}
 
 @media only screen and (max-width: 1136px){
 
