@@ -1,5 +1,5 @@
 #class-flex {
-    height: 50vh;
+    height: 40vh;
     width: 75%;
     margin: auto;
 }
@@ -12,7 +12,11 @@
 .img-class {
     height: 100%;
     width: 100%;
-    object-fit: fill
+    object-fit: cover
+}
+
+.img-circle-class{
+  width: 40% !important;
 }
 
 .class-text-box{
@@ -22,13 +26,28 @@
   margin-bottom: 70px;
 }
 
-.circle-img-class{
-    position: absolute;
-    top: -15%;
-    width: 70%;
-    right: 0;
-    left: 0;
-    margin: auto;
+#relative-circle{
+  position: relative;
+}
+
+#secondary-contenido{
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 180px;
+}
+
+#outside-flex{
+  margin-top: 100px;
+}
+
+.circle-img-class {
+  position: absolute;
+  top: 0;
+  width: 80%;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  margin: auto;
 }
 
 .pink-background{
@@ -38,6 +57,7 @@
 
 #outside-text{
   padding-right: 80px;
+  width: 60%;
 }
 
 .img-class-rounded{
@@ -73,44 +93,163 @@
     margin-bottom: auto;
 }
 
+@media only screen and (max-width: 1366px){
+  #outside-flex{
+    margin-top: 0px;
+  }
+
+  #secondary-contenido{
+    margin-top: 100px;
+  }
+
+  .img-class {
+    height: 100%;
+    width: 100%;
+    object-fit: fill;
+  }
+}
+
 @media only screen and (max-width: 1136px){
+
+  #background-rounded-class {
+    width: 67%;
+    height: 70%;
+  }
+
   #img-half{
     width: 50%;
   }
 
   #class-flex {
     height: 25vh;
+    width: 85%;
   }
+
   .class-text-box {
         width: 75%;
   }
+
+  .img-class-rounded {
+    height: 65%;
+  }
+
+  .img-circle-class {
+    width: 100% !important;
+  }
+
   .circle-img-class {
-    position: relative;
-    top: -24%;
-    width: 70%;
+    position: absolute;
+    top: 0;
+    width: 49%;
     margin: auto;
   }
   .flex-responsive{
     display: flex;
   }
 
-  #outside-text {
-    padding-right: 80px;
-    margin-top: -18%;
-    text-align: center;
+  #outside-flex {
+    display: flex;
+    position: relative;
+    align-content: space-between;
   }
+
   #second-layout{
     padding-top: 0;
   }
-  .secondary{
-    padding: 0px 20px;
+
+  #outside-text {
+    padding-right: 80px;
+    text-align: center;
+    width: 94%;
+    margin: auto;
   }
+
   .img-class-rounded {
     position: relative;
   }
+
+  #secondary-contenido {
+    margin-top: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
 }
 
+@media only screen and (max-width: 1112px){
+  #class-flex {
+    height: 35vh;
+    width: 85%;
+  }
+
+  #outside-flex {
+    margin-top: 120px;
+  }
+
+  .circle-img-class {
+    position: absolute;
+    top: 0;
+    width: 44%;
+    margin: auto;
+  }
+
+  #outside-text {
+    margin-top: 23%;
+    padding: 0;
+  }
+}
+
+@media only screen and (max-width: 1024px){
+  #outside-flex {
+    margin-top: 100px;
+  }
+
+  #outside-text {
+    margin-top: 20%;
+    padding: 0;
+  }
+
+  #secondary-contenido {
+    margin-top: 80px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+@media only screen and (max-width: 850px){
+
+  #relative-circle {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+  }
+
+  #outside-text {
+    margin: auto;
+    padding: 0px;
+    margin-top: 33%;
+  }
+
+  .img-flex-class{
+    height: 50vh !important;
+  }
+
+}
+
+
 @media only screen and (max-width: 428px){
+
+
+
+  #outside-flex {
+    margin-top: 30px;
+  }
+
+  #secondary-contenido {
+    margin-top: 70px;
+  }
 
   #img-half {
     width: 100%;
@@ -119,6 +258,7 @@
   #class-flex {
     height: auto;
   }
+
   .img-class {
     height: 22vh;
     width: 100%;
@@ -136,9 +276,10 @@
     width: 80%;
     margin: auto;
   }
+
   #outside-text {
     padding-right: 0;
-    margin-top: -25%;
+    margin-top: 63%;
     text-align: center;
     padding-left: 0;
   }
@@ -150,15 +291,22 @@
   #background-rounded-class {
     background-color: rgba(204, 82, 153, .4);
     position: absolute;
-    width: 85%;
+    width: 90%;
+    height: 90%;
   }
 
   .img-class-rounded {
-    width: 75%;
+    height: 80%;
+    width: 80%;
   }
 
   .img-absolute{
     height: 35vh;
+  }
+
+  #background-rounded-class {
+    width: 90%;
+    height: 90%;
   }
 }
 

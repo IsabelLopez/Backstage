@@ -41,6 +41,7 @@ p{
   text-align: center;
 }
 
+
 #btn{
   border: none;
   background:#cc5299;
@@ -183,10 +184,18 @@ p{
   .column-reverse{
     flex-direction: column-reverse;
   }
+
+  #absolute{
+    position: absolute;
+  }
+
+
+
+
 }
 
 
-@media(max-width: 768px){
+@media(max-width: 850px){
  h2{
   font-size: 35px;
  }
