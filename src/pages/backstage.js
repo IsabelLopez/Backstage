@@ -4,7 +4,7 @@ import img5 from "../images/img5.jpeg"
 import Main from "../images/mainImg.png"
 import Circle from "../images/circle.png"
 
-import Navigation from "../components/Navbar"
+
 import "../pages/backstage.css"
 
 

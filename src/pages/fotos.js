@@ -1,47 +1,73 @@
-import React, { Component } from 'react';
+import React from 'react'
+import Flickity from "../components/flickity"
+import Layout from "../components/layout"
+import "./fotos.css"
+
+import Lightbox from "react-awesome-lightbox";
+import "react-awesome-lightbox/build/style.css";
+
+import Sala1 from "../images/salas6.jpg"
+import Sala2 from "../images/salas3.jpg"
+import Sala3 from "../images/salas1.jpg"
+import Sala4 from "../images/salas4.jpg"
+
+import Evento1 from "../images/clases34.jpeg"
+import Evento2 from "../images/clases26.jpeg"
+import Evento3 from "../images/clases30.jpeg"
+import Evento4 from "../images/clases24.jpeg"
 
 
-import Image1 from "../images/img3.jpeg";
-import Image2 from "../images/girls.jpeg";
-import Image3 from "../images/img3.jpeg";
-import Image4 from "../images/girls.jpeg";
-import Image5 from "../images/img3.jpeg";
-
-
-import Slider from '../components/Slider';
-import "../pages/fotos.css"
-
-const images = [Image1, Image2, Image3, Image4, Image5];
-
-export default class Fotos extends Component {
-  render() {
+const BackstagePage = () => {
     return (
         <>
-          <div>
+            <title>Backstage - Somos Backstage</title>
+            <Layout>
+              <div className="contenido">
 
-          <Slider
-            options={{
+                <h3 className="mainTitle center-text">Salas de danza e Instalaciones</h3>
+                <div className="masonry-box">
+                  <div className="masonry-1">
+                    <img src={Sala1} alt=""/>
+                  </div>
 
-              pauseAutoPlayOnHover: true,
-              wrapAround: true,
-              fullscreen: true,
-              adaptiveHeight: true,
-              imagesLoaded: true,
-              percentPosition: false,
-            }}
-          >
-          <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/orange-tree.jpg" alt="orange tree" />
-  <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/submerged.jpg" alt="submerged" />
-  <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/look-out.jpg" alt="look-out" />
-  <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/one-world-trade.jpg" alt="One World Trade" />
-  <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/drizzle.jpg" alt="drizzle" />
-  <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/cat-nose.jpg" alt="cat nose" />
+                  <div className="masonry-2">
+                    <img src={Sala2} alt=""/>
+                    <img src={Sala3} alt=""/>
+                  </div>
 
+                  <div className="masonry-2">
+                    <img src={Sala1} alt=""/>
+                    <img src={Sala4} alt=""/>
+                  </div>
+                </div>
 
-          </Slider>
-        </div>
+                <div className="middle-box">
+                  <h3 className="mainTitle center-text">clases</h3>
+                  <Flickity/>
+                </div>
 
-      </>
-    );
-  }
+                <h3 className="mainTitle center-text">Eventos especiales</h3>
+
+                <div className="masonry-box">
+                  <div className="masonry-3">
+                    <img src={Evento1} alt=""/>
+                    <img src={Evento2} alt=""/>
+                  </div>
+
+                  <div className="masonry-4">
+                    <img src={Evento3} alt=""/>
+                  </div>
+
+                  <div className="masonry-5">
+                    <img src={Evento4} alt=""/>
+                  </div>
+                </div>
+
+              </div>
+            </Layout>
+
+        </>
+    )
 }
+
+export default BackstagePage

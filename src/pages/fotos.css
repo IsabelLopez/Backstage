@@ -1,14 +1,121 @@
-.carousel {
-  background: #EEE;
+.masonry-box{
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  height: 70vh;
+  justify-content: space-between;
+  margin-top: 50px;
+  flex-wrap: wrap;
 }
 
-.carousel img {
-  display: block;
-  height: 200px;
+.masonry-1{
+  width: 49%;
+  height: 100%;
 }
 
-@media screen and ( min-width: 768px ) {
-  .carousel img {
-    height: 400px;
+.masonry-1 img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.masonry-2{
+  width: 24%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.masonry-2 img{
+  height: 49%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.masonry-3{
+  width: 31%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.masonry-3 img{
+  height: 49%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.masonry-4{
+  width: 27%;
+  height: 100%;
+}
+
+.masonry-4 img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.masonry-5{
+  width: 39%;
+  height: 100%;
+}
+
+.masonry-5 img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.middle-box{
+  margin-top: 200px;
+  margin-bottom: 200px;
+}
+
+@media only screen and (max-width: 1136px){
+  .masonry-1 {
+    width: 100%;
+    height: 49%;
+  }
+
+  .masonry-2 {
+    width: 49%;
+    height: 50%;
+  }
+
+  .masonry-box {
+    align-content: space-between;
+  }
+
+  .middle-box {
+    margin-top: 180px;
+    margin-bottom: 180px;
+  }
+
+  .masonry-3 {
+    width: 100%;
+    flex-direction: row;
+    height: 49%;
+  }
+  .masonry-3 img {
+    height: 99%;
+    width: 49%;
+  }
+  .masonry-4 {
+    width: 49%;
+    height: 49%;
+  }
+  .masonry-5 {
+    width: 49%;
+    height: 49%;
+  }
+}
+
+@media only screen and (max-width: 428px){
+  .middle-box {
+    margin-top: 100px;
+    margin-bottom: 100px;
   }
 }
