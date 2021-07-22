@@ -122,7 +122,7 @@ export class Navigation extends Component {
                       CLASES
                     </NavLink>
 
-                    <NavLink to='#' className="navlink">
+                    <NavLink to='/fotos' className="navlink">
                       FOTOS
                     </NavLink>
 

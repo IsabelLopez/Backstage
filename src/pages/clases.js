@@ -50,7 +50,7 @@ const ClasesPage = () => {
 
             <div className="contenido" id="secondary-contenido">
               <div className="flex-box-half margin-40">
-                <div className="one-half-flex">
+                <div className="one-half-flex" id="">
                   <p className="text center">Otros géneros como <b>Tap, Jazz y Contemporáneo
                           </b> también siguen un plan de estudio. La colocación del estudiante en una clase se determina por su edad o por la potestad del profesor, mediante la evaluación de su progreso. Cada clase tendrá un conjunto de pasos necesarios que se deberán dominar antes de pasar al siguiente nivel. </p>
                   <p className="text center">Como parte del entrenamiento de nuestras alumnas, una vez llegan a un nivel intermedio se incluyen clases de preparación física como complemento para su formación. Somos fiel creyentes en que debemos entender anatómicamente cómo funciona el cuerpo para lograr con mayor éxito el progreso de las diferentes técnicas de danza que ofrecemos. La conexión mente + cuerpo les dará a nuestras alumnas una visión mas clara de cómo funciona su mayor "instrumento". su cuerpo, y de esa manera aprendan cómo manejarlo correctamente para evitar cualquier tipo de lesiones.</p>
