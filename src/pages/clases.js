@@ -2,8 +2,8 @@ import * as React from 'react'
 import Layout from "../components/layout"
 
 
-import girls from "../images/girls.jpeg"
-import img13 from "../images/class-circle.png"
+import girls from "../images/Tap_foto.jpeg"
+import img13 from "../images/circulo_foto_01.png"
 import img3 from "../images/img3.jpeg"
 import virtual from "../images/screenshot.png"
 

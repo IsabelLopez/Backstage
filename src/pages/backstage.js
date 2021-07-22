@@ -1,6 +1,6 @@
 import * as React from 'react'
 import Layout from "../components/layout"
-import img5 from "../images/img5.jpeg"
+import img5 from "../images/clases11.jpg"
 import Main from "../images/mainImg.png"
 import Circle from "../images/circle.png"
 
