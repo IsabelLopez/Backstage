@@ -33,7 +33,7 @@ const BackstagePage = () => {
 
               <div className="two-thirds-box" id="quote">
                 <h1>““</h1>
-                <h4><i>La Danza es un estilo de vida, más no solo una carrera.</i> Para poder vivir de ella se debe tener mucha pasión y amor por este arte, ya que el proceso de aprendizaje no acaba y nunca es suficiente a nivel de entrenamiento. ¡Todos los días son parte esencial del éxito!</h4>
+                <h4>La Danza es un estilo de vida, más no solo una carrera. Para poder vivir de ella se debe tener mucha pasión y amor por este arte, ya que el proceso de aprendizaje no acaba y nunca es suficiente a nivel de entrenamiento. ¡Todos los días son parte esencial del éxito!</h4>
                 <h4 className="nameQuote">TITA LÓPEZ</h4>
               </div>
 

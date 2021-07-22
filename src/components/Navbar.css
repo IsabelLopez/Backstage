@@ -120,13 +120,14 @@ a:hover{
 .nav-icon {
     width: 25%;
     color: #CC5299;
+    font-size: 25px;
 }
 
 .social-media {
     overflow: hidden;
     display: flex;
     justify-content: space-between;
-    width:10%;
+    width:12%;
     align-items: center;
     padding-left: 14px;
     padding-bottom: 4px;
