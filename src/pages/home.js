@@ -21,21 +21,7 @@ function Homepage() {
         <div className="home">
             <title>Backstage - Homepage</title>
             <Carousel >
-            <Carousel.Item interval={4000}>
-              <img
-                className="d-block carousel-circle"
-                src={Circle}
-                alt="First slide"
-              />
-              <img
-                className="d-block carousel-img"
-                src={Main}
-                alt="First slide"
-              />
-              <Carousel.Caption id="first-slide-text">
-                <h1 className="carousel-text">Escuela de</h1>
-              </Carousel.Caption>
-            </Carousel.Item>
+
 
             <Carousel.Item interval={4000}>
               <img

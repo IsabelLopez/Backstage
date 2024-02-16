@@ -64,7 +64,40 @@ const ClasesPage = () => {
               </div>
 
 
+            <h4 className="mainTitle" id="title-timeline">Cada nivel requiere la evaluación de tres aspectos:</h4>
+
+            <div class="wrapper">
+              <div class="center-line">
+                <a href="#" class="scroll-icon"><i class="fas fa-caret-up"></i></a>
+              </div>
+              <div class="row row-1">
+                <section>
+                  <img src={img3} alt="" class="img-class" id="img-timeline"/>
+                </section>
+                 <section>
+                  <div class="details">
+                    <span class="title">TÉCNICA</span>
+                  </div>
+                  <p>En los niveles Coordinación, Ballet Básico y Pre Ballet, el énfasis está en la posición correcta, el control del cuerpo y el uso coordinado de la cabeza, el cuerpo y los brazos para obtener un buen sentido de la línea. Los movimientos de danza se basan en movimientos naturales del cuerpo, por ejemplo. caminar, correr y saltar . El estudiante será introducido a los términos de ballet en le idioma original que es el francés.</p>
+                  <p>En los niveles intermedios y avanzados, una gama más amplia de movimientos físicos se desarrollan dentro de las capacidades propias del estudiante. Se desarrolla una mayor coordinación entre el uso en conjunto de la cabeza, el cuerpo y los brazos. El vocabulario de los movimientos de la danza se incrementa hasta incluir más pasos de baile y la técnica necesaria.</p>
+                </section>
+              </div>
+
+              <div class="row row-2">
+                <section>
+                  <img src={img3} alt="" class="img-class" id="img-timeline"/>
+                </section>
+                <section>
+                  <i class="icon fas fa-star"></i>
+                  <div class="details">
+                    <span class="title">RITMO</span>
+                  </div>
+                  <p>En los niveles principiantes, se hace énfasis en escuchar, y ser capaz de mantenerse al ritmo de la música. En los niveles intermedio y avanzado, el ritmo se desarrolló a partir de la comprensión de los compases simples, tales como 4/4 y 3/4 a composiciones más complicadas. En cada nivel, la alumna tiene la oportunidad de explorar el desarrollo del ritmo en el movimiento a su propia manera individual.</p>
+                </section>
+              </div>
             </div>
+            </div>
+
 
 
         </>

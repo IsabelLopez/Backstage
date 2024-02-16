@@ -19,7 +19,7 @@
 }
 
 .contactrow{
-  width: 35%;
+  width: 70%;
   padding-bottom: 12px;
   display: block;
   margin-left: auto;
@@ -48,7 +48,7 @@
   margin-top: 10px;
   padding: 8px 50px;
   border-radius: 25px;
-  border: 1px solid #ced4da;
+  border: 1px solid white!important;
   margin-bottom: none;
   float: right;
 }
@@ -64,7 +64,7 @@
     color: #495057;
     background-color: #fff;
     background-clip: padding-box;
-    border: 1px solid #ced4da;
+    border: 1px solid white!important;
     border-radius: 2.25rem !important;
     transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
